@@ -1,0 +1,49 @@
+body {
+    background: #121212;
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas{
+    z-index: 5;
+    position: absolute;
+    top: 0;
+}
+
+center{
+  z-index: 58;
+  position: relative;
+}
+
+.blur{
+  position: absolute;
+  z-index: 292;
+}
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes chill {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  

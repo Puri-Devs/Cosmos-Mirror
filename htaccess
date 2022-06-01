@@ -1,0 +1,2 @@
+#ErrorDocument 404 http://%{HTTP_HOST}/404/
+ErrorDocument 404 "<script src='/error_load.js'></script><script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>"

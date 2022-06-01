@@ -1,0 +1,104 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  color: white;
+  backdrop-filter: blur(23px);
+  margin: 0 auto;
+  font-family: Roboto, sans-serif;
+  overflow: hidden;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -o-user-select:none;
+}
+.blur {
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(20px);
+  height: 100vh;
+  width: 100%;
+  margin-top: -20px;
+}
+
+center {
+  /*margin-left: 50%;
+			margin-right: auto;*/
+  text-align: center;
+}
+
+center h1 {
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.1;
+  margin: 20px auto;
+  top: 14vh !important;
+  position: relative;
+}
+
+#iso_mirror {
+  position: relative;
+  top: 5vh;
+  font-weight: 400;
+}
+
+#iso_mirror h1,
+#data_mirror h1 {
+  display: table;
+  align-self: flex-start;
+  font-size: 1.5rem;
+  margin: 21px auto 0;
+  font-weight: 400 !important;
+}
+
+#iso_mirror a,
+#data_mirror a {
+  color: #ffffff !important;
+  background-color: #387cbd !important;
+  border-style: none;
+  text-transform: uppercase;
+  display: inline-block;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  border: 0 none transparent;
+  margin: 0;
+  font-style: initial;
+  white-space: nowrap;
+  user-select: none;
+  vertical-align: middle;
+  text-align: center;
+  padding: 10px 30px;
+  align-self: flex-start;
+  width: 10%;
+  height: 30%;
+  border-radius: 18px;
+  text-decoration: none;
+  margin-top: 16.2vh;
+  font-weight: 700;
+  max-width: 120px;
+}
+
+#data_mirror {
+  /*position: relative;*/
+  font-weight: 400;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+footer{
+  vertical-align: bottom;
+  position: fixed;
+  right: 0;
+  margin: 20px;
+}
